@@ -29,7 +29,7 @@
 ### **安装说明：**
 首先克隆本项目到本地：<br>
 git clone https://github.com/XS-GO/Spatio-Temporal-Trajectory-Planning.git
-在项目MPC_TrajectoryPlanning目录下<br>
+在项目Spatio-Temporal-Trajectory-Planning目录下<br>
 cd build && cmake .. && make<br>
 测试是否安装成功：**./main**<br>
 可视化**visualserver**启用方法：令起终端cd进入**visual**目录下， 执行 **python visualserver.py**。可视化服务端唤起，随后在原终端调用可执行文件 <br>
