@@ -104,7 +104,7 @@ def VisualServer():
             axs[4].cla()  
 
             """绘制车辆轨迹"""
-            axs[0].plot(vehicle_data.iloc[:, 0], vehicle_data.iloc[:, 1],'-b') # 行驶轨迹
+            axs[0].plot(vehicle_data.iloc[:, 0].values, vehicle_data.iloc[:, 1].values, '-b') # 行驶轨迹
             axs[0].plot(boundryx, boundry1, color='k') 
             axs[0].plot(boundryx, boundry2, color='k')
             axs[0].plot(boundryx, boundry3, color='k')
