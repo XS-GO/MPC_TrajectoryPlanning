@@ -16,7 +16,7 @@ int main(){
     std::vector<Obstacle> dynamic_obstacle = {dynamic_obs1,dynamic_obs2, dynamic_obs3};
     ROAD_MAP road(1000, static_obstacle, dynamic_obstacle);
     Vehicle vehicle(init_pos, 0, 0, 10, 0, 0, 0., road);
-    vehicle.setLatMpcMode(1);
+    vehicle.setLatMpcMode(0);
     test.run(vehicle, 300);
     system("python ../visual/VehicleStateVisual.py");
     return 0;
